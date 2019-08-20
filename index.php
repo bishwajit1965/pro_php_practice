@@ -29,6 +29,8 @@
 
                     <a target="_blank" href="https://www.w3schools.com/php7/default.asp" class="btn btn-block btn-info">W3 SCHOOLS PHP7</a>
 
+                    <a target="_blank" href="https://www.tutorialrepublic.com/php-tutorial/php-file-download.php" class="btn btn-block btn-info">TUTORIAL REPUBLIC</a>
+
                     <a target="_blank" href="https://www.tutorialspoint.com/php/php_design_patterns.htm" class="btn btn-block btn-info">TUTORIALS POINT PHP</a><br>
                     <?php
                     $data = glob("classes/"."*.*", GLOB_BRACE);
