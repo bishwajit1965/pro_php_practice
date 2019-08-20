@@ -8,12 +8,9 @@ spl_autoload_register(function ($class) {
 });
 echo "<strong>Result of : </strong> <strong>". __FILE__.'<br>'."</strong>";
 echo "<hr>";
-/**
- * summary
- */
+
 class Master
 {
-
     public function __construct()
     {
     }

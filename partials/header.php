@@ -1,5 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="">
+
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -14,36 +15,55 @@
         <link rel="stylesheet" href="../css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/responsive.css">
         <link rel="stylesheet" href="../css/app.css">
+        <style type="text/css">
+            .img-box {
+                display: inline-block;
+                text-align: center;
+                margin: 0 15px;
+            }
+        </style>
     </head>
+
     <body>
         <!-- Add your site or application content here -->
         <div class="container">
             <div class="row header bg-info text-white">
-                <img src="../images/oophp.jpg" alt="Image"><h1>Object Oriented PHP</h1>
+                <img src="../images/oophp.jpg" alt="Image">
+                <h1>Object Oriented PHP</h1>
             </div>
             <div class="row">
                 <div class="col-sm-3 bg-secondary text-white">
-                    <h4><a href="../index.php" class="btn btn-block btn-primary mt-3" class="btn btn-block btn-info"> Home</a>
+                    <h4><a href="../index.php" class="btn btn-block btn-primary mt-3" class="btn btn-block btn-info">
+                            Home</a>
                     </h4>
-                    <a target="_blank" href="https://www.php.net/manual/en/langref.php" class="btn btn-block btn-info">PHP DOT NET (Php Manual)</a>
+                    <a target="_blank" href="https://www.php.net/manual/en/langref.php"
+                        class="btn btn-block btn-info">PHP DOT NET (Php Manual)</a>
 
-                    <a target="_blank" href="https://www.php.net/manual/en/spl.iterators.php" class="btn btn-block btn-info">PHP DOT NET (Itrators)</a>
+                    <a target="_blank" href="https://www.php.net/manual/en/spl.iterators.php"
+                        class="btn btn-block btn-info">PHP DOT NET (Itrators)</a>
 
-                    <a target="_blank" href="https://www.php.net/manual/en/book.strings.php" class="btn btn-block btn-info">PHP DOT NET (String Functions)</a>
+                    <a target="_blank" href="https://www.php.net/manual/en/book.strings.php"
+                        class="btn btn-block btn-info">PHP DOT NET (String Functions)</a>
 
-                    <a target="_blank" href="https://www.w3schools.com/php7/default.asp" class="btn btn-block btn-info">W3 SCHOOLS PHP7</a>
+                    <a target="_blank" href="https://www.w3schools.com/php7/default.asp"
+                        class="btn btn-block btn-info">W3 SCHOOLS PHP7</a>
 
-                    <a target="_blank" href="https://www.tutorialrepublic.com/php-tutorial/php-file-download.php" class="btn btn-block btn-info">TUTORIAL REPUBLIC</a>
+                    <a target="_blank" href="https://www.tutorialrepublic.com/php-tutorial/php-file-download.php"
+                        class="btn btn-block btn-info">TUTORIAL REPUBLIC</a>
 
-                    <a target="_blank" href="https://www.tutorialspoint.com/php/php_design_patterns.htm" class="btn btn-block btn-info">TUTORIALS POINT PHP</a><br>
+                    <a target="_blank" href="https://www.tutorialspoint.com/php/php_design_patterns.htm"
+                        class="btn btn-block btn-info">TUTORIALS POINT PHP</a><br>
                     <div class="info-tab note-icon" title="Important Notes"><i></i></div>
                 </div>
-                    <div class="col-sm-9 content">
-                        <div class="color-box">
-                    <div class="shadow">
-                        <div class="info-tab tip-icon" title="Useful Tips"><i></i></div>
-                        <div class="tip-box">
-                            <p><strong>Tip:</strong> Our SQL tutorial will help you to learn the fundamentals of the SQL language, from the basic to advanced topics step-by-step. If you're a beginner, start with the basic section and gradually move forward by learning a little bit every day.</p>
+                <div class="col-sm-9 content">
+                    <!-- <div class="color-box">
+                        <div class="shadow">
+                            <div class="info-tab tip-icon" title="Useful Tips"><i></i></div>
+                            <div class="tip-box">
+                                <p><strong>Tip:</strong> Our SQL tutorial will help you to learn the fundamentals of the
+                                    SQL language, from the basic to advanced topics step-by-step. If you're a beginner,
+                                    start with the basic section and gradually move forward by learning a little bit
+                                    every day.</p>
+                            </div>
                         </div>
-                    </div>
-                </div>
+                    </div> -->

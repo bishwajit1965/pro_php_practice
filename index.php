@@ -1,5 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="">
+
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -15,29 +16,37 @@
         <link rel="stylesheet" href="css/responsive.css">
         <link rel="stylesheet" href="css/app.css">
     </head>
+
     <body>
         <!-- Add your site or application content here -->
         <div class="container">
             <div class="row header bg-info text-white">
-                <img src="images/oophp.jpg" alt="Image"><h1>Practising PHP</h1>
+                <img src="images/oophp.jpg" alt="Image">
+                <h1>Practising PHP</h1>
             </div>
             <div class="row">
                 <div class="col-sm-3 bg-secondary text-white">
-                    <a target="_blank" href="https://www.php.net/manual/en/langref.php" class="btn btn-block btn-info">PHP DOT NET (Php Manual)</a>
-                    <a target="_blank" href="https://www.php.net/manual/en/spl.iterators.php" class="btn btn-block btn-info">PHP DOT NET (Itrators)</a>
-                    <a target="_blank" href="https://www.php.net/manual/en/book.strings.php" class="btn btn-block btn-info">PHP DOT NET (String Functions)</a>
+                    <a target="_blank" href="https://www.php.net/manual/en/langref.php"
+                        class="btn btn-block btn-info">PHP DOT NET (Php Manual)</a>
+                    <a target="_blank" href="https://www.php.net/manual/en/spl.iterators.php"
+                        class="btn btn-block btn-info">PHP DOT NET (Itrators)</a>
+                    <a target="_blank" href="https://www.php.net/manual/en/book.strings.php"
+                        class="btn btn-block btn-info">PHP DOT NET (String Functions)</a>
 
-                    <a target="_blank" href="https://www.w3schools.com/php7/default.asp" class="btn btn-block btn-info">W3 SCHOOLS PHP7</a>
+                    <a target="_blank" href="https://www.w3schools.com/php7/default.asp"
+                        class="btn btn-block btn-info">W3 SCHOOLS PHP7</a>
 
-                    <a target="_blank" href="https://www.tutorialrepublic.com/php-tutorial/php-file-download.php" class="btn btn-block btn-info">TUTORIAL REPUBLIC</a>
+                    <a target="_blank" href="https://www.tutorialrepublic.com/php-tutorial/php-file-download.php"
+                        class="btn btn-block btn-info">TUTORIAL REPUBLIC</a>
 
-                    <a target="_blank" href="https://www.tutorialspoint.com/php/php_design_patterns.htm" class="btn btn-block btn-info">TUTORIALS POINT PHP</a><br>
+                    <a target="_blank" href="https://www.tutorialspoint.com/php/php_design_patterns.htm"
+                        class="btn btn-block btn-info">TUTORIALS POINT PHP</a><br>
                     <?php
                     $data = glob("classes/"."*.*", GLOB_BRACE);
                     foreach ($data as $file) {
                         ?>
-                            <a href="<?php echo $file;?>"><?php echo $file;?></a>
-                            <?php
+                    <a href="<?php echo $file; ?>"><?php echo $file; ?></a>
+                    <?php
                     }
                     ?>
                 </div>
@@ -46,8 +55,10 @@
                     spl_autoload_register(function ($class) {
                         include_once 'classes/'.$class.'.php';
                     });
+                    include_once 'files/download.php';
                     ?>
                     <h4>Helllo !!!</h4>
+                    <a href="files/image-gallery.php"> Image Gallery</a>
 
                 </div>
             </div>
@@ -56,9 +67,13 @@
             </div>
         </div>
         <!-- Add your site or application content above -->
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script>
+            window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')
+        </script>
         <script src="js/popper.min.js"></script>
         <script src="js/main.js"></script>
     </body>
+
 </html>
