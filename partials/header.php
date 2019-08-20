@@ -56,14 +56,3 @@
                     <div class="info-tab note-icon" title="Important Notes"><i></i></div>
                 </div>
                 <div class="col-sm-9 content">
-                    <!-- <div class="color-box">
-                        <div class="shadow">
-                            <div class="info-tab tip-icon" title="Useful Tips"><i></i></div>
-                            <div class="tip-box">
-                                <p><strong>Tip:</strong> Our SQL tutorial will help you to learn the fundamentals of the
-                                    SQL language, from the basic to advanced topics step-by-step. If you're a beginner,
-                                    start with the basic section and gradually move forward by learning a little bit
-                                    every day.</p>
-                            </div>
-                        </div>
-                    </div> -->
