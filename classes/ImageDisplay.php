@@ -16,7 +16,7 @@ class ImageDisplay
         // Loop through array to create image gallery
         foreach ($images as $image) {
             echo '<div class="img-box">';
-            echo '<img src="../images/' . $image . '" width="240" height="200" alt="' .  pathinfo($image, PATHINFO_FILENAME) .'">';
+            echo '<img src="../images/' . $image . '" width="240" height="200" alt="' .  pathinfo($image, PATHINFO_FILENAME).'">';
             echo '<p><a href="Imagedownload.php?file=' . urlencode($image) . '"> Download</a></p>';
             echo '</div>';
         }

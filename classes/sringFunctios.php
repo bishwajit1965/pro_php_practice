@@ -207,6 +207,8 @@ class StringFunctions
 
 
 
+
+
         // Code above
     }
 }

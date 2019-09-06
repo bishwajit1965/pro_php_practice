@@ -55,10 +55,9 @@
                     spl_autoload_register(function ($class) {
                         include_once 'classes/'.$class.'.php';
                     });
-                    include_once 'files/download.php';
                     ?>
-                    <h4>Helllo !!!</h4>
-                    <a href="files/image-gallery.php"> Image Gallery</a>
+
+                    <a href="files/image-gallery.php" class="btn btn-lg btn-primary"> Image Gallery</a>
 
                 </div>
             </div>
